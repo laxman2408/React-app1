@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import './Form.js';
-import Form from './Form.js';
+import TodoList from './components/TodoList';
+
 function App() {
   return (
-    <div className="App">
-        <Form></Form>
+    <div className='todo-app'>
+      <TodoList />
     </div>
   );
 }
